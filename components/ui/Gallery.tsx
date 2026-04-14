@@ -1,6 +1,8 @@
+import { siteConfig } from "@/configs/site";
 import { Star } from "lucide-react";
 
 const galleryItems = [
+// ... (rest of galleryItems)
   {
     id: 1,
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJZjzSR3S09YZhwM5QxAykBoKHMkzjZziWWDVhjcBfSVdwUzCqFN4UolNGYhnzPm_KJrtoUA7W6rNmCFIWZgQ4esPbXEy8bNXld8jlxhJ13jBWRhwO6T7i9b6OQ-1vjpspg5exVPqD1bQEUsmmteYl0vs_ZTPRCn0zuS_lJQ5ox8O2ARR3ch_bbyFHJst_HoVI1GZi8LHw1ZkDLqyVdMb7RqXLBUNJYrZuhJhCEo62OA2E0exG16KhiTfssSRXGQVmXzUgk1JgwRLw",
@@ -78,8 +80,8 @@ export default function Gallery() {
         </div>
 
         <div className="mt-12 text-center">
-          <a href="https://instagram.com/hynienails" target="_blank" rel="noopener noreferrer" className="text-primary font-bold uppercase tracking-widest text-sm hover:underline underline-offset-8 transition-all">
-            Theo dõi để xem thêm @hynienails
+          <a href={siteConfig.links.instagram} target="_blank" rel="noopener noreferrer" className="text-primary font-bold uppercase tracking-widest text-sm hover:underline underline-offset-8 transition-all">
+            Theo dõi để xem thêm {siteConfig.business.instagramHandle}
           </a>
         </div>
       </div>

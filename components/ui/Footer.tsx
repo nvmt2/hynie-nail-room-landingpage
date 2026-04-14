@@ -1,4 +1,5 @@
 import { Instagram, Facebook, MapPin, Phone, Mail, ArrowRight } from "lucide-react";
+import { siteConfig } from "@/configs/site";
 
 /**
  * Footer section rendered as a Server Component.
@@ -11,22 +12,25 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="text-2xl font-headline italic text-primary font-semibold">
-              Hynie Nails Room
+              {siteConfig.name}
             </div>
             <p className="text-on-surface-variant text-sm leading-relaxed">
-              Nghệ thuật làm móng phong cách Hàn Quốc cao cấp. Kiến tạo những
-              khoảnh khắc làm đẹp và thư giãn từ năm 2024.
+              {siteConfig.description}
             </p>
             <div className="flex gap-4">
               <a
                 className="w-8 h-8 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors"
-                href="#"
+                href={siteConfig.links.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Instagram size={16} />
               </a>
               <a
                 className="w-8 h-8 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors"
-                href="#"
+                href={siteConfig.links.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Facebook size={16} />
               </a>
@@ -41,18 +45,16 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-primary shrink-0" />
                 <span>
-                  123 Artistry Lane, Suite 400
-                  <br />
-                  West Hollywood, CA 90048
+                  {siteConfig.contact.address}
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary shrink-0" />
-                <span>+1 (555) 012-3456</span>
+                <span><a href={`tel:${siteConfig.contact.phone}`}>{siteConfig.contact.phoneFormatted}</a></span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary shrink-0" />
-                <span>hello@hynienails.com</span>
+                <span><a href={`mailto:${siteConfig.contact.email}`}>{siteConfig.contact.email}</a></span>
               </li>
             </ul>
           </div>
