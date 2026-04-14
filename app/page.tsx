@@ -7,8 +7,8 @@ export default function Home() {
       <main className="flex-grow">
         <Hero />
         <Gallery />
-        <Shop />
         <Services />
+        <Shop />
       </main>
       <Footer />
     </div>

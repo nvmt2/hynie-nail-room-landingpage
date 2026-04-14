@@ -1,16 +1,16 @@
 export const services = [
   {
-    name: "Làm Móng Khô Cao Cấp",
-    price: "$85",
+    name: "Nail Cơ Bản",
+    price: "30k - 150k",
     description: "Xử lý da chuyên nghiệp và hoàn thiện với gel chuẩn phom.",
   },
   {
-    name: "Đắp Gel Mềm Hàn Quốc",
-    price: "$120",
+    name: "Móng Giả",
+    price: "50k - 80k",
     description: "Nối móng tự nhiên với dòng gel mềm cao cấp.",
   },
   {
-    name: "Nghệ Thuật Cảm Hứng",
+    name: "Design Nghệ Thuật",
     price: "Tùy chọn",
     description: "Các mẫu vẽ tay được thiết kế riêng theo gu thẩm mỹ của bạn.",
   },
@@ -54,7 +54,7 @@ export const galleryItems = [
   {
     id: 2,
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC3faIhnwHKstGIhpo3pBz3ag3M2trJV6f-U8Q-z2Fp9mSsgd4t06ZalnmtZ372xWdK8cv7jtQSUVXEFQmgChNmeL5RA7asXVTnIFzxIKGggQ3LfnBQR4v7hSJx9nuZmiKLuFgtRjZLda9p1RHI96gwJHQpeTcL0F4g7jXpKVEmwjvcf-Kl66PuxT8p1NXdg_1uBsq9ZD9iYzI_BnMTmRy2Csj3lAzf6f1SmKNecSDKjImY9w2xdkIrJQY639gsSc3YdQ2RCydIK-oW",
-    testimonial: "Màu sơn rất mướt và bền màu, ưng quá!",
+    testimonial: "Tiệm sạch sẽ, và tỉ mỉ trong việc vệ sinh các dụng cụ",
     author: "Minh Thư"
   },
   {

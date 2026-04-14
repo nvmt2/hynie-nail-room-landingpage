@@ -14,7 +14,7 @@ export default function Gallery() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-headline text-on-surface mb-4">Ảnh Từ Khách Hàng Đã Làm</h2>
           <div className="w-12 h-0.5 bg-primary mx-auto mb-6"></div>
-          <p className="text-on-surface-variant">Những tác phẩm nghệ thuật từ studio của chúng tôi</p>
+          <p className="text-on-surface-variant">Những tác phẩm nghệ thuật từ studio của Hynie</p>
         </div>
 
         <div className="relative group">

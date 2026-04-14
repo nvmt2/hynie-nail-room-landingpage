@@ -9,11 +9,11 @@ export const siteConfig = {
     phone: "0932035017",
     phoneFormatted: "0932 035 017",
     email: "hynie.nailroom@gmail.com", // Updated to a more likely email based on handle
-    address: "Ho Chi Minh City, Vietnam", // Based on the phone number prefix
+    address: "106 Đỗ Thúc Tịnh, Đà Nẵng, Việt Nam", // Based on the phone number prefix
   },
   business: {
     instagramHandle: "@hynie.nail",
     facebookName: "Hynie Nails Room",
-    openingHours: "9 SA - 8 CH",
+    openingHours: "9 SA - 7 CH",
   }
 };
