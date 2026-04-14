@@ -1,24 +1,7 @@
 /**
  * Services section rendered as a Server Component.
  */
-const services = [
-  {
-    name: "Làm Móng Khô Cao Cấp",
-    price: "$85",
-    description: "Xử lý da chuyên nghiệp và hoàn thiện với gel chuẩn phom.",
-  },
-  {
-    name: "Đắp Gel Mềm Hàn Quốc",
-    price: "$120",
-    description: "Nối móng tự nhiên với dòng gel mềm cao cấp.",
-  },
-  {
-    name: "Nghệ Thuật Cảm Hứng",
-    price: "Tùy chọn",
-    description:
-      "Các mẫu vẽ tay được thiết kế riêng theo gu thẩm mỹ của bạn.",
-  },
-];
+import { services } from "@/configs/content";
 
 export default function Services() {
   return (

@@ -1,33 +1,7 @@
 import { siteConfig } from "@/configs/site";
 import { Star } from "lucide-react";
 
-const galleryItems = [
-// ... (rest of galleryItems)
-  {
-    id: 1,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDJZjzSR3S09YZhwM5QxAykBoKHMkzjZziWWDVhjcBfSVdwUzCqFN4UolNGYhnzPm_KJrtoUA7W6rNmCFIWZgQ4esPbXEy8bNXld8jlxhJ13jBWRhwO6T7i9b6OQ-1vjpspg5exVPqD1bQEUsmmteYl0vs_ZTPRCn0zuS_lJQ5ox8O2ARR3ch_bbyFHJst_HoVI1GZi8LHw1ZkDLqyVdMb7RqXLBUNJYrZuhJhCEo62OA2E0exG16KhiTfssSRXGQVmXzUgk1JgwRLw",
-    testimonial: "Nails đẹp lắm ạ, chủ tiệm rất tỉ mỉ!",
-    author: "Lan Anh"
-  },
-  {
-    id: 2,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC3faIhnwHKstGIhpo3pBz3ag3M2trJV6f-U8Q-z2Fp9mSsgd4t06ZalnmtZ372xWdK8cv7jtQSUVXEFQmgChNmeL5RA7asXVTnIFzxIKGggQ3LfnBQR4v7hSJx9nuZmiKLuFgtRjZLda9p1RHI96gwJHQpeTcL0F4g7jXpKVEmwjvcf-Kl66PuxT8p1NXdg_1uBsq9ZD9iYzI_BnMTmRy2Csj3lAzf6f1SmKNecSDKjImY9w2xdkIrJQY639gsSc3YdQ2RCydIK-oW",
-    testimonial: "Màu sơn rất mướt và bền màu, ưng quá!",
-    author: "Minh Thư"
-  },
-  {
-    id: 3,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDm1W1y6INCCLtUr73wEjS-VRucCaXeJGoJDOS0B_4uBhF-17F6dbYL1RP2_-LT2q2SvJSvprGLSGMpUnO-5TySIiVRVFwsahmlSKzpw6JxvVFyxpfY_kNJ-BCk4xwK8MHCFHrkzu_bHDmXdqmdqtcWRR3Sue9Iu6BX91o3k47rb87lZgXYrMtySrstkiNToIpuRtr_wKAXPcrVfIhh4exRuljpzNCbjgqorS2-bn2DgLhEHEgn94tX2g6PMiRHqV5et0z7v-fx28uM",
-    testimonial: "Dịch vụ 5 sao, không gian cực chill.",
-    author: "Ngọc Hân"
-  },
-  {
-    id: 4,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDISZx9sD9IWlemj4csIToxLS0PssP1j1UWkG6TRkeZYKcyoQXD9sf-ZFWKpid8I0rnHP8eyU73dkAeEioCCAcIEuOdx4A7bHsBLvjs-8KUgpAe-Lsm8R7FMMzUgPXhz2ZEcSwRXiY7DOkMsuJZPoVMOPxOfc51VlCCCnx2r-SGVB1Ds9LUcpenmcZJU55iECrOXy7rHa2B5NEc0vfNMhX0J75HjPpHl0lXuEHPtGQOIml3GpdVOm9hn4zMKGXnnazUmtpan_OnUCbx",
-    testimonial: "Đúng chuẩn phong cách Hàn Quốc thanh lịch.",
-    author: "Phương Linh"
-  }
-];
+import { galleryItems } from "@/configs/content";
 
 /**
  * Premium Gallery rendered as a Server Component.
@@ -64,7 +38,7 @@ export default function Gallery() {
                         <Star key={i} size={12} fill="currentColor" />
                       ))}
                     </div>
-                    <p className="text-xs italic text-on-surface-variant">"{item.testimonial}"</p>
+                    <p className="text-xs italic text-on-surface-variant">&quot;{item.testimonial}&quot;</p>
                     <p className="text-[10px] font-bold uppercase mt-2 text-secondary">- {item.author}</p>
                   </div>
                 </div>
