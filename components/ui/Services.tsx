@@ -5,7 +5,7 @@ import { services } from "@/configs/content";
 
 export default function Services() {
   return (
-    <section className="py-24 bg-white" id="services">
+    <section className="py-24 bg-background" id="services">
       <div className="container mx-auto px-8">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="relative">
@@ -40,9 +40,10 @@ export default function Services() {
                 </div>
               ))}
             </div>
-            <button className="mt-12 rounded-full border-2 border-primary text-primary px-8 py-3 font-bold hover:bg-primary hover:text-white transition-all">
+            <button className="mt-12 rounded-full border-2 border-primary text-primary px-8 py-3 font-bold hover:bg-primary hover:text-on-primary transition-all">
               Xem Toàn Bộ Menu
             </button>
+
           </div>
         </div>
       </div>
