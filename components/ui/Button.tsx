@@ -21,12 +21,13 @@ export const Button = ({
 
   const variants = {
     primary:
-      "bg-[#171717] text-white hover:bg-[#2a2a2a] shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:scale-95",
+      "bg-foreground text-background hover:opacity-90 shadow-lg hover:shadow-xl hover:-translate-y-0.5 active:scale-95",
     secondary:
-      "bg-white text-[#171717] border border-[#e5e5e5] hover:border-[#cbcbcb] shadow-sm hover:shadow-md hover:-translate-y-0.5 active:scale-95",
+      "bg-background text-foreground border border-outline-variant hover:border-on-surface-variant shadow-sm hover:shadow-md hover:-translate-y-0.5 active:scale-95",
     outline:
-      "bg-transparent border-2 border-[#171717] text-[#171717] hover:bg-[#171717] hover:text-white hover:-translate-y-0.5 active:scale-95",
+      "bg-transparent border-2 border-foreground text-foreground hover:bg-foreground hover:text-background hover:-translate-y-0.5 active:scale-95",
   };
+
 
   return (
     <button className={`${baseStyles} ${variants[variant]} ${className}`}>

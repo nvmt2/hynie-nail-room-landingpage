@@ -1,19 +1,20 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: #ffffff;
-  --color-foreground: #171717;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
   
-  --color-primary: #b08d7d;
-  --color-on-primary: #ffffff;
-  --color-primary-container: #f7f0e9;
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-primary-container: var(--primary-container);
   
-  --color-secondary: #8d7d73;
-  --color-on-secondary: #ffffff;
+  --color-secondary: var(--secondary);
+  --color-on-secondary: var(--on-secondary);
   
-  --color-on-surface: #1a1a1a;
-  --color-on-surface-variant: #6b6b6b;
-  --color-outline-variant: #e5e5e5;
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-outline-variant: var(--outline-variant);
+  --color-surface-container: var(--surface-container);
 
   --font-headline: var(--font-playfair), serif;
   --font-sans: var(--font-geist-sans);
@@ -24,7 +25,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #b08d7d;
+  --on-primary: #ffffff;
+  --primary-container: #f7f0e9;
+  --secondary: #8d7d73;
+  --on-secondary: #ffffff;
+  --on-surface: #1a1a1a;
+  --on-surface-variant: #6b6b6b;
+  --outline-variant: #e5e5e5;
+  --surface-container: #faf9f6;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {

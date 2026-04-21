@@ -9,7 +9,7 @@ import { galleryItems } from "@/configs/content";
  */
 export default function Gallery() {
   return (
-    <section className="py-24 bg-white" id="gallery">
+    <section className="py-24 bg-background" id="gallery">
       <div className="container mx-auto px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-headline text-on-surface mb-4">Ảnh Từ Khách Hàng Đã Làm</h2>
@@ -32,7 +32,7 @@ export default function Gallery() {
                   />
                   <div className="absolute inset-0 bg-primary/10 opacity-0 md:group-hover/item:opacity-100 transition-opacity"></div>
 
-                  <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm p-4 rounded-lg md:transform md:translate-y-2 md:opacity-0 md:group-hover/item:translate-y-0 md:group-hover/item:opacity-100 transition-all duration-300 shadow-sm">
+                  <div className="absolute bottom-4 left-4 right-4 bg-background/90 backdrop-blur-sm p-4 rounded-lg md:transform md:translate-y-2 md:opacity-0 md:group-hover/item:translate-y-0 md:group-hover/item:opacity-100 transition-all duration-300 shadow-sm">
                     <div className="flex gap-1 text-primary mb-1">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} size={12} fill="currentColor" />
