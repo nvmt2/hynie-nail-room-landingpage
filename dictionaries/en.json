@@ -1,0 +1,44 @@
+{
+  "Navbar": {
+    "gallery": "Gallery",
+    "shop": "Products",
+    "services": "Services",
+    "bookNow": "Book Now"
+  },
+  "Hero": {
+    "tagline": "Korean Style Nail Studio",
+    "titlePrefix": "Your Beauty,",
+    "titleSuffix": "Hynie's Masterpiece",
+    "subtitle": "Discover the gentle elegance of Korean nail art. Hynie combines minimalist aesthetics with precise craftsmanship to create a unique beauty just for you.",
+    "cta": "Book Now",
+    "phone": "Phone",
+    "openingHours": "Open Daily"
+  },
+  "Services": {
+    "title": "Our Services",
+    "basic": "Basic Nail",
+    "basicDesc": "Professional cuticle care and gel finishing.",
+    "extension": "Nail Extensions",
+    "extensionDesc": "Natural-looking extensions with premium soft gel.",
+    "art": "Artistic Design",
+    "artDesc": "Hand-painted designs tailored to your aesthetic.",
+    "viewMenu": "View Full Menu"
+  },
+  "Gallery": {
+    "title": "Latest Work",
+    "subtitle": "Nail designs crafted with precision and passion."
+  },
+  "Footer": {
+    "contact": "Contact",
+    "hours": "Opening Hours",
+    "daily": "Monday - Sunday",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "Shop": {
+    "title": "Hynie's Products",
+    "subtitle": "Professional nail care tools for home use.",
+    "viewCollection": "View Collection"
+  }
+}

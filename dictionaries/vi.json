@@ -1,0 +1,44 @@
+{
+  "Navbar": {
+    "gallery": "Ảnh Từ Khách Hàng",
+    "shop": "Sản phẩm",
+    "services": "Dịch Vụ",
+    "bookNow": "Đặt Lịch Ngay"
+  },
+  "Hero": {
+    "tagline": "Tiệm Làm Móng Phong Cách Hàn Quốc",
+    "titlePrefix": "Vẻ Đẹp Của Bạn,",
+    "titleSuffix": "Kiệt Tác Của Hynie",
+    "subtitle": "Khám phá nét thanh lịch nhẹ nhàng của phong cách làm móng Hàn Quốc. Hynie kết hợp thẩm mỹ tối giản với sự tỉ mỉ chuẩn xác để tạo nên vẻ đẹp riêng biệt cho bạn.",
+    "cta": "Đặt Lịch Ngay",
+    "phone": "Điện Thoại",
+    "openingHours": "Mở Cửa Mỗi Ngày"
+  },
+  "Services": {
+    "title": "Dịch Vụ Của Chúng Tôi",
+    "basic": "Nail Cơ Bản",
+    "basicDesc": "Xử lý da chuyên nghiệp và hoàn thiện với gel chuẩn phom.",
+    "extension": "Móng Giả",
+    "extensionDesc": "Nối móng tự nhiên với dòng gel mềm cao cấp.",
+    "art": "Design Nghệ Thuật",
+    "artDesc": "Các mẫu vẽ tay được thiết kế riêng theo gu thẩm mỹ của bạn.",
+    "viewMenu": "Xem Toàn Bộ Menu"
+  },
+  "Gallery": {
+    "title": "Tác Phẩm Mới Nhất",
+    "subtitle": "Những bộ móng được thực hiện với sự tỉ mỉ và tâm huyết."
+  },
+  "Footer": {
+    "contact": "Liên Hệ",
+    "hours": "Giờ Mở Cửa",
+    "daily": "Thứ 2 - Chủ Nhật",
+    "rights": "Bảo lưu mọi quyền.",
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ"
+  },
+  "Shop": {
+    "title": "Sản Phẩm Của Hynie",
+    "subtitle": "Bộ dụng cụ chăm sóc móng chuyên nghiệp tại nhà.",
+    "viewCollection": "Xem Bộ Sưu Tập"
+  }
+}
