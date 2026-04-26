@@ -34,11 +34,11 @@ export default function Services() {
                   className="border-b border-outline-variant/50 pb-6"
                 >
                   <div className="flex justify-between items-center mb-3">
-                    <h4 className="text-xl font-headline">{service.name}</h4>
-                    <span className="text-primary font-bold">{service.price}</span>
+                    <h4 className="text-xl font-headline">{t(`${service.key}.name`)}</h4>
+                    <span className="text-primary font-bold">{t(`${service.key}.price`)}</span>
                   </div>
                   <p className="text-on-surface-variant text-sm">
-                    {service.description}
+                    {t(`${service.key}.description`)}
                   </p>
                 </div>
               ))}

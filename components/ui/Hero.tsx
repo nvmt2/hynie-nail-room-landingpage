@@ -68,7 +68,7 @@ export default function Hero() {
           <div className="text-center">
             <Clock size={20} className="text-secondary mx-auto mb-2" />
             <p className="text-[10px] uppercase tracking-widest text-secondary font-bold mb-1">{t('openingHours')}</p>
-            <p className="text-sm font-medium">{siteConfig.business.openingHours}</p>
+            <p className="text-sm font-medium">{t('openingHoursTime')}</p>
           </div>
         </div>
       </div>

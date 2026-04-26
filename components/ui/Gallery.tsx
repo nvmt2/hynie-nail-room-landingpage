@@ -36,15 +36,17 @@ export default function Gallery() {
                   />
                   <div className="absolute inset-0 bg-primary/10 opacity-0 md:group-hover/item:opacity-100 transition-opacity"></div>
 
-                  <div className="absolute bottom-4 left-4 right-4 bg-background/90 backdrop-blur-sm p-4 rounded-lg md:transform md:translate-y-2 md:opacity-0 md:group-hover/item:translate-y-0 md:group-hover/item:opacity-100 transition-all duration-300 shadow-sm">
-                    <div className="flex gap-1 text-primary mb-1">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} size={12} fill="currentColor" />
-                      ))}
+                  {t.has(`reviews.${item.key}`) && (
+                    <div className="absolute bottom-4 left-4 right-4 bg-background/90 backdrop-blur-sm p-4 rounded-lg md:transform md:translate-y-2 md:opacity-0 md:group-hover/item:translate-y-0 md:group-hover/item:opacity-100 transition-all duration-300 shadow-sm">
+                      <div className="flex gap-1 text-primary mb-1">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} size={12} fill="currentColor" />
+                        ))}
+                      </div>
+                      <p className="text-xs italic text-on-surface-variant">&quot;{t(`reviews.${item.key}`)}&quot;</p>
+                      <p className="text-[10px] font-bold uppercase mt-2 text-secondary">- {item.author}</p>
                     </div>
-                    <p className="text-xs italic text-on-surface-variant">&quot;{item.testimonial}&quot;</p>
-                    <p className="text-[10px] font-bold uppercase mt-2 text-secondary">- {item.author}</p>
-                  </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -59,7 +61,7 @@ export default function Gallery() {
 
         <div className="mt-12 text-center">
           <a href={siteConfig.links.instagram} target="_blank" rel="noopener noreferrer" className="text-primary font-bold uppercase tracking-widest text-sm hover:underline underline-offset-8 transition-all">
-            Theo dõi để xem thêm {siteConfig.business.instagramHandle}
+            {t('moreDetail')} {siteConfig.business.instagramHandle}
           </a>
         </div>
       </div>

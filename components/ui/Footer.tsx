@@ -9,6 +9,7 @@ import { useTranslations } from 'next-intl';
  */
 export default function Footer() {
   const t = useTranslations('Footer');
+  const tHero = useTranslations('Hero');
 
   return (
     <footer className="bg-surface-container py-16 px-8 border-t border-outline-variant/30">
@@ -19,7 +20,7 @@ export default function Footer() {
               {siteConfig.name}
             </div>
             <p className="text-on-surface-variant text-sm leading-relaxed">
-              {siteConfig.description}
+              {t('description')}
             </p>
             <div className="flex gap-4">
               <a
@@ -67,7 +68,7 @@ export default function Footer() {
               <li className="flex justify-between gap-4">
                 <span>{t('daily')}</span>
                 <span className="font-medium text-on-surface text-right">
-                  9:00 AM - 7:00 PM
+                  {tHero('openingHoursTime')}
                 </span>
               </li>
             </ul>
