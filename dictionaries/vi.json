@@ -1,0 +1,79 @@
+{
+  "Navbar": {
+    "gallery": "Ảnh Từ Khách Hàng",
+    "shop": "Sản phẩm",
+    "services": "Dịch Vụ",
+    "bookNow": "Đặt Lịch Ngay"
+  },
+  "Hero": {
+    "tagline": "Tiệm Làm Móng Phong Cách Hàn Quốc",
+    "titlePrefix": "Vẻ Đẹp Của Bạn,",
+    "titleSuffix": "Kiệt Tác Của Hynie",
+    "subtitle": "Khám phá nét thanh lịch nhẹ nhàng của phong cách làm móng Hàn Quốc. Hynie kết hợp thẩm mỹ tối giản với sự tỉ mỉ chuẩn xác để tạo nên vẻ đẹp riêng biệt cho bạn.",
+    "cta": "Đặt Lịch Ngay",
+    "phone": "Điện Thoại",
+    "openingHours": "Mở Cửa Mỗi Ngày",
+    "openingHoursTime": "9 SA - 7 CH"
+  },
+  "Services": {
+    "title": "Dịch Vụ Của Chúng Tôi",
+    "viewMenu": "Xem Toàn Bộ Menu",
+    "basic": {
+      "name": "Nail Cơ Bản",
+      "price": "30k - 150k",
+      "description": "Xử lý da chuyên nghiệp và hoàn thiện với gel chuẩn phom."
+    },
+    "extension": {
+      "name": "Móng Giả",
+      "price": "50k - 80k",
+      "description": "Nối móng tự nhiên với dòng gel mềm cao cấp."
+    },
+    "art": {
+      "name": "Design Nghệ Thuật",
+      "price": "Tùy chọn",
+      "description": "Các mẫu vẽ tay được thiết kế riêng theo gu thẩm mỹ của bạn."
+    }
+  },
+  "Gallery": {
+    "title": "Đánh Giá Từ Khách Hàng",
+    "subtitle": "Những bộ móng được khách hàng đánh giá trên Google Maps.",
+    "moreDetail": "Theo dõi để xem thêm",
+    "reviews": {
+      "kim": "Chị chủ dễ thương, nhiệt tìnhh, làm rất ưng ý😍😍",
+      "nhi": "I love it!",
+      "toi": "Tiệm sạch sẽ, và tỉ mỉ trong việc vệ sinh các dụng cụ.",
+      "phuong": "Mình là khách quen đã làm nhiều lần và rất thích chị bé làm móng, màu và form móng khá đẹp và ưng ý.",
+      "ngoc": "Chị chủ siêu dễ thưn làm kĩ lắm!",
+      "duyen": "Chị chủ dễ thương, tiệm sạch sẽ, nail đẹp giá hạt dẻ form khá ok"
+    }
+  },
+  "Footer": {
+    "contact": "Liên Hệ",
+    "hours": "Giờ Mở Cửa",
+    "daily": "Thứ 2 - Chủ Nhật",
+    "rights": "Bảo lưu mọi quyền.",
+    "privacy": "Chính Sách Bảo Mật",
+    "terms": "Điều Khoản Dịch Vụ",
+    "description": "Nghệ thuật làm móng phong cách Hàn Quốc nhẹ nhàng. Kiến tạo những khoảnh khắc làm đẹp và thư giãn."
+  },
+  "Shop": {
+    "title": "Sản Phẩm Của Hynie",
+    "subtitle": "Bộ dụng cụ chăm sóc móng chuyên nghiệp tại nhà.",
+    "viewCollection": "Xem Bộ Sưu Tập",
+    "items": {
+      "velvet": {
+        "name": "Bộ Ba Sơn Móng Velvet",
+        "tag": "Mới"
+      },
+      "atelier": {
+        "name": "Bộ Chăm Sóc Atelier"
+      },
+      "petal": {
+        "name": "Móng Giả Petal"
+      },
+      "elixir": {
+        "name": "Tinh Dầu Botanical Elixir"
+      }
+    }
+  }
+}

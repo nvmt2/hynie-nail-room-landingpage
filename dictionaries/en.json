@@ -1,0 +1,79 @@
+{
+  "Navbar": {
+    "gallery": "Gallery",
+    "shop": "Products",
+    "services": "Services",
+    "bookNow": "Book Now"
+  },
+  "Hero": {
+    "tagline": "Korean Style Nail Studio",
+    "titlePrefix": "Your Beauty,",
+    "titleSuffix": "Hynie's Masterpiece",
+    "subtitle": "Experience the subtle elegance of Korean-inspired nail design. At Hynie, minimalist aesthetics meet meticulous craftsmanship to create a look uniquely yours.",
+    "cta": "Book Now",
+    "phone": "Phone",
+    "openingHours": "Open Daily",
+    "openingHoursTime": "9 AM - 7 PM"
+  },
+  "Services": {
+    "title": "Our Services",
+    "viewMenu": "View Full Menu",
+    "basic": {
+      "name": "Basic Nail",
+      "price": "$1.5 - $7",
+      "description": "Professional cuticle care and gel finishing."
+    },
+    "extension": {
+      "name": "Nail Extensions",
+      "price": "$2.5 - $4",
+      "description": "Natural-looking extensions with premium soft gel."
+    },
+    "art": {
+      "name": "Artistic Design",
+      "price": "Custom",
+      "description": "Hand-painted designs tailored to your aesthetic."
+    }
+  },
+  "Gallery": {
+    "title": "Customer Reviews",
+    "subtitle": "Nail designs loved and reviewed by our customers on Google Maps.",
+    "moreDetail": "Follow to see more",
+    "reviews": {
+      "kim": "Sweet owner, enthusiastic, very satisfied with the results😍😍",
+      "nhi": "I love it!",
+      "toi": "Very clean studio, and meticulous tool sterilization.",
+      "phuong": "Regular customer here, love the nail tech, colors and form are beautiful.",
+      "ngoc": "Super cute owner and very meticulous work!",
+      "duyen": "Lovely owner, clean shop, beautiful nails at affordable prices."
+    }
+  },
+  "Footer": {
+    "contact": "Contact",
+    "hours": "Opening Hours",
+    "daily": "Monday - Sunday",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "description": "Soft Korean-inspired nail artistry, crafting moments of beauty and relaxation."
+  },
+  "Shop": {
+    "title": "Hynie's Products",
+    "subtitle": "Professional nail care tools for home use.",
+    "viewCollection": "View Collection",
+    "items": {
+      "velvet": {
+        "name": "Velvet Nail Polish Trio",
+        "tag": "New"
+      },
+      "atelier": {
+        "name": "Atelier Care Kit"
+      },
+      "petal": {
+        "name": "Petal Press-ons"
+      },
+      "elixir": {
+        "name": "Botanical Elixir Oil"
+      }
+    }
+  }
+}

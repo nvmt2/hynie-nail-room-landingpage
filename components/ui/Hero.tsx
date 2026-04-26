@@ -1,38 +1,43 @@
+'use client';
+
 import { Phone, Instagram, Facebook, Clock } from "lucide-react";
 import { siteConfig } from "@/configs/site";
+import { useTranslations } from 'next-intl';
 
 /**
- * Premium Hero section rendered as a Server Component.
- * Motion animations removed to support full server rendering.
+ * Premium Hero section rendered as a Client Component for localization support.
  */
 export default function Hero() {
+  const t = useTranslations('Hero');
+
   return (
     <section className="relative pt-40 pb-20 md:pt-56 md:pb-32 overflow-hidden soft-gradient">
       <div className="container mx-auto px-8 relative z-10 text-center max-w-4xl">
         <span className="text-secondary font-semibold tracking-[0.3em] uppercase text-xs mb-4 block">
-          Tiệm Làm Móng Phong Cách Hàn Quốc
+          {t('tagline')}
         </span>
 
         <h1 className="text-5xl md:text-7xl font-headline text-on-surface leading-tight mb-8">
-          Vẻ Đẹp Của Bạn, <span className="serif-italic">Kiệt Tác Của Hynie</span>
+          {t('titlePrefix')} <span className="serif-italic">{t('titleSuffix')}</span>
         </h1>
 
         <p className="text-lg text-on-surface-variant leading-relaxed mb-12 max-w-2xl mx-auto">
-          Khám phá nét thanh lịch nhẹ nhàng của phong cách làm móng Hàn Quốc.
-          Hynie kết hợp thẩm mỹ tối giản với sự tỉ mỉ chuẩn xác để tạo nên vẻ đẹp riêng biệt cho bạn.
+          {t('subtitle')}
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
           <button className="w-full sm:w-auto rounded-full bg-primary px-10 py-4 text-on-primary font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
             <a href={`tel:${siteConfig.contact.phone}`}>
-              Đặt Lịch Ngay
+              {t('cta')}
             </a>
           </button>
           <div className="flex gap-4 items-center">
             <a className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary shadow-sm hover:bg-primary-container transition-colors" href={`tel:${siteConfig.contact.phone}`}>
+              <span className="sr-only">Call</span>
               <Phone size={20} />
             </a>
             <a className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary shadow-sm hover:bg-primary-container transition-colors" href={siteConfig.links.instagram} target="_blank" rel="noopener noreferrer">
+              <span className="sr-only">Instagram</span>
               <Instagram size={20} />
             </a>
           </div>
@@ -42,7 +47,7 @@ export default function Hero() {
           <div className="text-center">
             <a href={`tel:${siteConfig.contact.phone}`}>
               <Phone size={20} className="text-secondary mx-auto mb-2" />
-              <p className="text-[10px] uppercase tracking-widest text-secondary font-bold mb-1">Điện Thoại</p>
+              <p className="text-[10px] uppercase tracking-widest text-secondary font-bold mb-1">{t('phone')}</p>
               <p className="text-sm font-medium">{siteConfig.contact.phoneFormatted}</p>
             </a>
           </div>
@@ -62,8 +67,8 @@ export default function Hero() {
           </div>
           <div className="text-center">
             <Clock size={20} className="text-secondary mx-auto mb-2" />
-            <p className="text-[10px] uppercase tracking-widest text-secondary font-bold mb-1">Mở Cửa Mỗi Ngày</p>
-            <p className="text-sm font-medium">{siteConfig.business.openingHours}</p>
+            <p className="text-[10px] uppercase tracking-widest text-secondary font-bold mb-1">{t('openingHours')}</p>
+            <p className="text-sm font-medium">{t('openingHoursTime')}</p>
           </div>
         </div>
       </div>

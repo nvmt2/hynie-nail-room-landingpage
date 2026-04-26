@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Hynie Nails Room",
-  description: "Nghệ thuật làm móng phong cách Hàn Quốc cao cấp. Kiến tạo những khoảnh khắc làm đẹp và thư giãn từ năm 2024.",
+  description: "Nghệ thuật làm móng phong cách Hàn Quốc nhẹ nhàng. Kiến tạo những khoảnh khắc làm đẹp và thư giãn.",
   links: {
     instagram: "https://www.instagram.com/hynie.nail",
     facebook: "https://www.facebook.com/share/1AxPpX4RMR/",
