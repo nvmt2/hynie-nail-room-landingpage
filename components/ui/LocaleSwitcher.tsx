@@ -14,14 +14,13 @@ export default function LocaleSwitcher() {
   };
 
   return (
-    <div className="flex gap-2 items-center text-xs font-medium uppercase tracking-widest">
+    <div className="flex gap-2 items-center text-sm font-medium uppercase tracking-widest">
       {locales.map((l) => (
         <button
           key={l}
           onClick={() => handleLocaleChange(l)}
-          className={`transition-colors hover:text-primary ${
-            locale === l ? 'text-primary' : 'text-on-surface/60'
-          }`}
+          className={`transition-colors hover:text-primary ${locale === l ? 'text-primary' : 'text-on-surface/60'
+            }`}
         >
           {l}
         </button>

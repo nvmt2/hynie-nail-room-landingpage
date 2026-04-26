@@ -18,7 +18,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <Hero />
         <Gallery />
         <Services />
-        <Shop />
+        {/* <Shop /> */}
+        {/* TODO: voucher here */}
       </main>
       <Footer />
     </div>

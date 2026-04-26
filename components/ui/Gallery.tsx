@@ -13,7 +13,7 @@ export default function Gallery() {
   const t = useTranslations('Gallery');
 
   return (
-    <section className="py-24 bg-background" id="gallery">
+    <section className="pt-24 bg-background" id="gallery">
       <div className="container mx-auto px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-headline text-on-surface mb-4">{t('title')}</h2>
