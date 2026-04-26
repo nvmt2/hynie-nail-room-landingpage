@@ -16,7 +16,7 @@ export default function Services() {
               <img
                 alt="Không gian Studio"
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDISZx9sD9IWlemj4csIToxLS0PssP1j1UWkG6TRkeZYKcyoQXD9sf-ZFWKpid8I0rnHP8eyU73dkAeEioCCAcIEuOdx4A7bHsBLvjs-8KUgpAe-Lsm8R7FMMzUgPXhz2ZEcSwRXiY7DOkMsuJZPoVMOPxOfc51VlCCCnx2r-SGVB1Ds9LUcpenmcZJU55iECrOXy7rHa2B5NEc0vfNMhX0J75HjPpHl0lXuEHPtGQOIml3GpdVOm9hn4zMKGXnnazUmtpan_OnUCbx"
+                src="/images/service/hynie-nail-front.jpg"
                 referrerPolicy="no-referrer"
               />
             </div>
