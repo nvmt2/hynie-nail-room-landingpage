@@ -3,18 +3,22 @@ import { Star } from "lucide-react";
 
 import { galleryItems } from "@/configs/content";
 
+import { useTranslations } from 'next-intl';
+
 /**
  * Premium Gallery rendered as a Server Component.
  * JS-based scrolling removed in favor of native CSS scroll snap.
  */
 export default function Gallery() {
+  const t = useTranslations('Gallery');
+
   return (
     <section className="py-24 bg-background" id="gallery">
       <div className="container mx-auto px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-headline text-on-surface mb-4">Ảnh Từ Khách Hàng Đã Làm</h2>
+          <h2 className="text-4xl font-headline text-on-surface mb-4">{t('title')}</h2>
           <div className="w-12 h-0.5 bg-primary mx-auto mb-6"></div>
-          <p className="text-on-surface-variant">Những tác phẩm nghệ thuật từ studio của Hynie</p>
+          <p className="text-on-surface-variant">{t('subtitle')}</p>
         </div>
 
         <div className="relative group">

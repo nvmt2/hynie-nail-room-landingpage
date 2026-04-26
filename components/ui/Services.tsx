@@ -2,8 +2,11 @@
  * Services section rendered as a Server Component.
  */
 import { services } from "@/configs/content";
+import { useTranslations } from 'next-intl';
 
 export default function Services() {
+  const t = useTranslations('Services');
+
   return (
     <section className="py-24 bg-background" id="services">
       <div className="container mx-auto px-8">
@@ -22,7 +25,7 @@ export default function Services() {
 
           <div>
             <h2 className="text-4xl font-headline text-on-surface mb-10 leading-tight">
-              Dịch Vụ Chính
+              {t('title')}
             </h2>
             <div className="space-y-8">
               {services.map((service, index) => (
@@ -41,7 +44,7 @@ export default function Services() {
               ))}
             </div>
             <button className="mt-12 rounded-full border-2 border-primary text-primary px-8 py-3 font-bold hover:bg-primary hover:text-on-primary transition-all">
-              Xem Toàn Bộ Menu
+              {t('viewMenu')}
             </button>
 
           </div>

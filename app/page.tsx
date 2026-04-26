@@ -1,16 +1,14 @@
-import { Navbar, Hero, Gallery, Shop, Services, Footer } from "@/components/ui";
+'use client';
 
-export default function Home() {
-  return (
-    <div className="flex min-h-screen flex-col bg-background">
-      <Navbar />
-      <main className="flex-grow">
-        <Hero />
-        <Gallery />
-        <Services />
-        <Shop />
-      </main>
-      <Footer />
-    </div>
-  );
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+
+export default function RootPage() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace('/vi');
+  }, [router]);
+
+  return null;
 }

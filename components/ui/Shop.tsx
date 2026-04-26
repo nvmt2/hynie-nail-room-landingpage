@@ -4,18 +4,21 @@ import { ArrowRight, ShoppingCart } from "lucide-react";
  * Shop section rendered as a Server Component.
  */
 import { products } from "@/configs/content";
+import { useTranslations } from 'next-intl';
 
 export default function Shop() {
+  const t = useTranslations('Shop');
+
   return (
     <section className="py-24 bg-surface-container-low" id="shop">
       <div className="container mx-auto px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-xl">
-            <h2 className="text-4xl font-headline text-on-surface mb-4">Sản Phẩm Của Hynie</h2>
-            <p className="text-on-surface-variant">Bộ dụng cụ chăm sóc móng chuyên nghiệp tại nhà.</p>
+            <h2 className="text-4xl font-headline text-on-surface mb-4">{t('title')}</h2>
+            <p className="text-on-surface-variant">{t('subtitle')}</p>
           </div>
           <button className="group flex items-center gap-2 text-primary font-bold uppercase tracking-widest text-sm transition-colors hover:text-on-surface">
-            Xem Bộ Sưu Tập 
+            {t('viewCollection')} 
             <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
           </button>
         </div>
